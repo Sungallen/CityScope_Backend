@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "outDir": "dist",
   "scripts": {
     "start": "node ./dist/index.ts",
     "dev": "nodemon ./src/index.ts",
     "build": "tsc -p ."
-    
   },
   "dependencies": {
     "@types/cors": "^2.8.12",
